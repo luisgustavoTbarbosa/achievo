@@ -1,3 +1,4 @@
+import { Logo } from "./components/Logo";
 import { GlobalStyles } from "./styles/global";
 
 export function App() {
@@ -5,7 +6,9 @@ export function App() {
     <>
       <GlobalStyles />
       <div className="app-container">
-        <div></div>
+        <div>
+          <Logo />
+        </div>
         <div></div>
       </div>
     </>

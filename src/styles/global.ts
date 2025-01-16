@@ -29,16 +29,14 @@ export const GlobalStyles = createGlobalStyle`
     margin: 2.5rem auto 0;
     padding: 0 2rem;
 
-    div:first-child {
+    > div:first-child {
       flex: 1;
       height: 40px;
-      background-color: blue;
     }
 
-    div:last-child {
+    > div:last-child {
       flex-grow: 3;
       height: 40px;
-      background-color: red;
     }
   }
 `
