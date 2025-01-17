@@ -1,4 +1,6 @@
+import { FiltersList } from "./components/FiltersList";
 import { Logo } from "./components/Logo";
+import { SearchTask } from "./components/SearchTask";
 import { GlobalStyles } from "./styles/global";
 
 export function App() {
@@ -8,8 +10,11 @@ export function App() {
       <div className="app-container">
         <div>
           <Logo />
+          <FiltersList />
         </div>
-        <div></div>
+        <div>
+          <SearchTask />
+        </div>
       </div>
     </>
   )

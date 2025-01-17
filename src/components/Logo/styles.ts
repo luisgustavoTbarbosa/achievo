@@ -5,7 +5,6 @@ export const LogoContainer = styled.a`
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
-  padding: 0.5rem;
   border-radius: 8px;
   color: #FFFFFF;
   font-weight: 600;

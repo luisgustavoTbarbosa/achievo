@@ -31,12 +31,10 @@ export const GlobalStyles = createGlobalStyle`
 
     > div:first-child {
       flex: 1;
-      height: 40px;
     }
 
     > div:last-child {
       flex-grow: 3;
-      height: 40px;
     }
   }
 `
