@@ -1,8 +1,21 @@
 import { Card } from "./styles";
 
-export function FilterCard ({ icon, cardTitle, cardStatus }) {
+interface FilterCardProps {
+  icon: React.ReactNode
+  cardTitle: string
+  cardVariant?: "primary" | "canceled" | "paused" | "all" | undefined
+}
+
+export function FilterCard ({ icon, cardTitle, cardVariant = "primary" }: FilterCardProps) {
+  const colorVariants = {
+    primary: "#92929D",
+    canceled: "#F75A68",
+    paused: "#FFB74D",
+    all: "#42A5F5"
+  }
+
   return (
-    <Card>
+    <Card $variant={colorVariants[cardVariant]}>
       <div>
         {icon}
         <p>{cardTitle}</p>

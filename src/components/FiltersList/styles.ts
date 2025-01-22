@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FiltersListContainer = styled.div`
-
+  margin-top: 1.5rem;
 `
 
 export const StatusFilters = styled.div`
