@@ -1,6 +1,7 @@
 import { FiltersList } from "./components/FiltersList";
 import { Logo } from "./components/Logo";
 import { TasksHeader } from "./components/TasksHeder";
+import { TasksList } from "./components/TasksList";
 import { GlobalStyles } from "./styles/global";
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
         </div>
         <div>
           <TasksHeader />
+          <TasksList />
         </div>
       </div>
     </>
