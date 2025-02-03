@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const SearchTaskContainer = styled.div`
   position: relative;
   display: flex;
+  flex: 1;
 
   svg {
     position: absolute;
@@ -15,14 +16,14 @@ export const SearchTaskContainer = styled.div`
   input {
     width: 100%;
     height: 35px;
-    border: none;
-    border-radius: 6px;
-    background-color: #323238;
     padding: 6px 6px 6px 30px;
-    color: #FFFFFF;
+    border: 1px solid #3F3F46;
+    border-radius: 6px;
+    background-color: #2A2A30;
+    color: #E4E4E7;
 
     &::placeholder {
-      color: #C4C4CC;
+      color: #A1A1AA;
     }
   }
 `

@@ -3,14 +3,14 @@
 <path d="M12 2V22" stroke="url(#paint1_linear_3_19)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <linearGradient id="paint0_linear_3_19" x1="12.0025" y1="2.00237" x2="12.0025" y2="22.0022" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6B4E75"/>
-<stop offset="0.335" stop-color="#6E1B7C"/>
-<stop offset="1" stop-color="#2E033C"/>
+<stop stop-color="#E4E4E7"/>
+<stop offset="0.335" stop-color="#6366F1"/>
+<stop offset="1" stop-color="#4F46E5"/>
 </linearGradient>
 <linearGradient id="paint1_linear_3_19" x1="12.5" y1="2" x2="12.5" y2="22" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6B4E75"/>
-<stop offset="0.335" stop-color="#6E1B7C"/>
-<stop offset="1" stop-color="#2E033C"/>
+<stop stop-color="#E4E4E7"/>
+<stop offset="0.335" stop-color="#6366F1"/>
+<stop offset="1" stop-color="#4F46E5"/>
 </linearGradient>
 </defs>
 </svg>

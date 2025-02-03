@@ -9,10 +9,11 @@ export const Card = styled.div<CardProps>`
   justify-content: space-between;
   gap: 0.75rem;
   padding: 0.5rem;
-  background-color: #323238;
+  background-color: #2A2A30;
+  border: 1px solid #3F3F46;
   border-radius: 6px;
   font-size: 0.875rem;
-  color: #C4C4CC;
+  color: #A1A1AA;
 
   svg {
     margin-bottom: 0.2rem;
@@ -24,6 +25,6 @@ export const Card = styled.div<CardProps>`
   .count {
     font-size: 1rem;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #E4E4E7;
   }
 `
